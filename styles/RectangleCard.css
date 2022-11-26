@@ -1,0 +1,35 @@
+.Rectangle-card{
+    width: 25%;
+    background-color: white;
+    padding: 30px;
+    border: none;
+    border-radius: 30px;
+    height: 200px;
+    box-shadow: 0 0 5px #888888;
+    margin: 0% 2% 0% 2%;
+}
+.Card-head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.Card-Image{
+    height: 50px;
+    width: 50px;
+    margin-right: 22px;
+}
+.card-Head-Text {
+    font-size: 21px;
+    font-weight: 500;
+}
+.card-desc {
+    font-weight: 100;
+}
+@media (max-width: 768px) {
+    .Rectangle-card{
+        width: 70%;
+        margin: 4% 0% 4% 0%;
+    }
+}

@@ -1,0 +1,28 @@
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer-image {
+    width: 15%;
+}
+#links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 25px 25px 25px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#links a {
+    text-decoration: none;
+    color: rgb(223, 222, 222);
+}
+#copyright {
+    color: rgb(223, 222, 222);
+}

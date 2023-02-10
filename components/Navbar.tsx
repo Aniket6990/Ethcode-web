@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { CgMenuRightAlt, CgClose } from "react-icons/cg";
-import ethcode_large from "../assets/home/ethcode_large.svg";
+import ethcode_large from "../assets/logo/logo-blue.svg";
 
 const Navbar = () => {
   const [mobile, setMobile] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
           />
         </div>
         <ul
-          className={!mobile ? "nav-links" : "nav-links-mobile"}
+          className={!mobile ? "nav-links" : "nav-links-mobile nav-links"}
           onClick={() => {
             setMobile(false);
           }}

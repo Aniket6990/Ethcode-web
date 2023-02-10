@@ -64,17 +64,20 @@
     #home-banner-container {
         height: 150px;
     }
+    #home-banner {
+        margin-top: 0%;
+    }
     #home-image {
-        width: 15%;
+        width: 18%;
     }
     #banner-text {
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 500;
         width: 200px;
     }
     #line {
         border-left: 2px solid black;
-        height: 50px;
+        height: 40px;
         margin: 0 5vw 0 5vw;
         width: 2px;
     }
